@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Navigbar from './Components/Navigbar'
+import Feed from './Components/Feed'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* Your Navigation Bar that you imported as component should be here, look at 
+      how the Feed Component is imported as a reference point.
+      Remember that React Components must start with a capital letter.*/}
+      <h1>Blockstagram</h1>
+      <Feed></Feed>
     </div>
   );
 }

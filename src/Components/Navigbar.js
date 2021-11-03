@@ -2,9 +2,7 @@ import React from 'react';
 import { Navbar , Nav, NavDropdown} from 'react-bootstrap';
 
 // ADD CODE HERE (Look at the other components to see how you add components)
-import { Navbar , Nav, NavDropdown} from 'react-bootstrap';
-
-class Navigbar extends React.Component {
+class Navigbar extends React.Component{
 
   render() {
 
@@ -36,6 +34,7 @@ class Navigbar extends React.Component {
     </>
     );
   }
-};
+}
 
+// ADD CODE HERE
 export default Navigbar;
